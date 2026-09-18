@@ -1,1 +1,200 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+a{
+    color: white;
+}
+body{
+background-color: hsl(212, 56%, 10%);
+color: white;
+}
+header{
+    font-family: "poppins",sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+.nav-iteme{
+    font-size: 1 rem;
+    color: white;
+    padding: 2px;
+}
+
+h1,h2,h3{
+    font-family: "poppins",sans-serif;
+    font-weight: bold;
+}
+
+.hero-sec{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem; 
+     max-width: 1000px; 
+     align-items: center; 
+     margin: 0 auto;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Space Grotesk",sans-serif;
+    margin: 0 auto;
+    font-size: 1.2rem;
+
+}
+#key-line{
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 0;
+    margin-right: 0;
+    padding: 0;
+    margin-left: 140px;
+}
+#avatar{
+    display: flexbox;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    justify-content: flex-end;
+    margin:0 auto;
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 1%, rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(circle, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 100%);
+}
+#about{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+     max-width: 1000px; 
+     align-items: center; 
+     margin: 0 auto;
+     padding: 0 1rem;
+     gap: 1rem;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+
+}
+
+#my-photo{
+    display: block;
+    height: 200px;
+     width: 200px;
+     object-fit: cover;
+     border-radius: 50%;
+}
+#skills-title{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: poppins, sans-serif;
+    font-weight: normal;
+}
+.st-row {
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 4rem;
+   margin-bottom: 1rem;
+   padding: 2%;
+}
+.nd-row{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 3rem;
+   margin-bottom: 1rem;
+   padding: 2%;
+}
+.skill-img{
+       display: block;
+  object-fit: contain;     
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+
+}
+.projects{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    padding: 5%;
+}
+.project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  max-width: 900px;
+  margin: 0 auto 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.javaquize,
+.text-search-engine,
+.explore-india {
+  display: grid;
+  grid-template-columns: 180px 1fr; 
+  column-gap: 2rem;
+  row-gap: 0.4rem;
+  align-items: start;
+}
+
+.project-img {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  align-self: center; 
+}
+
+.javaquize h3,
+.text-search-engine h3,
+.explore-india h3 {
+  grid-column: 2;
+  font-size: 1.5rem;
+  margin: 0;
+  color: #ffffff;
+}
+
+.javaquize p,
+.text-search-engine p,
+.explore-india p {
+  grid-column: 2;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #94a3b8;
+  margin: 0.3rem 0;
+}
+
+.javaquize a,
+.text-search-engine a,
+.explore-india a {
+  grid-column: 2;
+  color: #38bdf8;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+  display: inline-block;
+}
+
+.javaquize a:hover,
+.text-search-engine a:hover,
+.explore-india a:hover {
+  text-decoration: underline;
+  color: #60a5fa;
+}
+.contact-form{
+    background-color: hsl(214, 3%, 46%);
+    padding: 5%;
+}
